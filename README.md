@@ -4,7 +4,7 @@
 <br>
 
 
-simpleAutocomplete is a vanilla JavaScript utility class and some CSS used to display auto-complete suggestions to the user. Setup and use is very simplistic and minimalistic. As the user selects a suggestion the value is put in the corresponding text input element and a callback is called if provided. This utility is so simple it should be no problem for JavaScript developers of nearly any skill level to quickly understand and/or alter the code to their needs. Customize the CSS file to your needs.
+simpleAutocomplete is a vanilla JavaScript utility class and some CSS used to display auto-complete suggestions to the user. Setup and use is very simplistic and minimalistic. As the user selects a suggestion the value is put in the corresponding text input element and a callback is called if provided.
 
 The developer is responsible for watching for text being typed in inputs, obtaining the auto-complete suggestions they wish to display, and for the simple preparation for display. See below section: ***Preparing Suggestions for Display*** 
 
