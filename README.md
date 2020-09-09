@@ -1,5 +1,4 @@
 # simpleAutocomplete  
----
 
 ## Dead simple autocomplete suggestions display and selection.  
 <br>
@@ -9,7 +8,7 @@ simpleAutocomplete is a vanilla JavaScript utility class and some CSS used to di
 
 The developer is responsible for watching for text being typed in inputs, obtaining the auto-complete suggestions they wish to display, and for the simple preparation for display. See below section: ***Preparing Suggestions for Display*** 
 
-###Setup:
+### Setup:
 
 1. Load `simpleAutocomp.css` and `simpleAutocomp.js` files on the page you want to have auto-complete functionality. For example:  
 		
@@ -69,7 +68,7 @@ The developer is responsible for watching for text being typed in inputs, obtain
 <br>
 
 
-###Preparing Suggestions for Display:
+### Preparing Suggestions for Display:
 
 The suggestions need to be put inside of HTML option elements. If we had suggestions of "A" and "B", this would be the HTML string preparation and display:
 
@@ -92,7 +91,7 @@ This could be the preparation of an array of elements and the display of those e
 		autocomp0.datalistElements = array;
 
 <br>
-###Options:  
+### Options:  
 
 		SimpleAutocomplete(callback, multiAutoCompID, fontAwesome, marginTop, fixed)
 
