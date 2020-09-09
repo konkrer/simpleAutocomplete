@@ -8,6 +8,8 @@ simpleAutocomplete is a vanilla JavaScript utility class and some CSS used to di
 
 The developer is responsible for watching for text being typed in inputs, obtaining the auto-complete suggestions they wish to display, and for the simple preparation for display. See below section: ***Preparing Suggestions for Display*** 
 
+![Image of auto-complete suggestions.](https://repository-images.githubusercontent.com/293932221/c1aa5280-f228-11ea-97f2-beb12de0c4f8)
+
 ### Setup:
 
 1. Load `simpleAutocomp.css` and `simpleAutocomp.js` files on the page you want to have auto-complete functionality. For example:  
