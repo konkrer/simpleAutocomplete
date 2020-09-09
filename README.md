@@ -93,6 +93,8 @@ This could be the preparation of an array of elements and the display of those e
 		autocomp0.datalistElements = array;
 
 <br>
+
+
 ### Options:  
 
 		SimpleAutocomplete(callback, multiAutoCompID, fontAwesome, marginTop, fixed)
@@ -124,7 +126,7 @@ If font awesome icons are available and desired for the close button.
 
   marginTop --> String. (default: null)  
 
-String setting for CSS margin-top to adjust datalist position to input.
+String setting for CSS margin-top to adjust datalist position to input. E.g "25px".
 
 
 ----------
