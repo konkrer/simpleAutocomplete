@@ -38,15 +38,15 @@ The developer is responsible for watching for text being typed in inputs, obtain
 
 3.	Instantiate a simpleAutocomplete object for each text input autocomplete functionality you need. There needs to be an corresponding datalist element properly labeled with sequential id for each new simpleAutocomplete object created (as above).
 
-		// This instance be associated with the first input and datalist with id "datalist-autocomplete".
+		// This instance will be associated with the first input and datalist with id "datalist-autocomplete"
 
 		const autocomp0 = new simpleAutocomp(callback);
 
-		// This instance will be associated with the second input and datalist with id "datalist-autocomplete-1".
+		// This instance will be associated with the second input and datalist with id "datalist-autocomplete-1"
 
 		const autocomp1 = new simpleAutocomp(callback, 1);
 
-		// This instance will be associated with the third input and datalist with id "datalist-autocomplete-2".
+		// This instance will be associated with the third input and datalist with id "datalist-autocomplete-2"
 
 		const autocomp2 = new simpleAutocomp(null, 2);
 
