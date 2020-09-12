@@ -38,13 +38,16 @@ The developer is responsible for watching for text being typed in inputs, obtain
 
 3.	Instantiate a simpleAutocomplete object for each text input autocomplete functionality you need. There needs to be an corresponding datalist element properly labeled with sequential id for each new simpleAutocomplete object created (as above).
 
-		// This instance has a callback and will be associated with the first input and datalist with id "datalist-autocomplete".
+		// This instance be associated with the first input and datalist with id "datalist-autocomplete".
+
 		const autocomp0 = new simpleAutocomp(callback);
 
-		// This instance has a callback and will be associated with the second input and datalist with id "datalist-autocomplete-1".
+		// This instance will be associated with the second input and datalist with id "datalist-autocomplete-1".
+
 		const autocomp1 = new simpleAutocomp(callback, 1);
 
-		// This instance has no callback and will be associated with the third input and datalist with id "datalist-autocomplete-2".
+		// This instance will be associated with the third input and datalist with id "datalist-autocomplete-2".
+
 		const autocomp2 = new simpleAutocomp(null, 2);
 
 4. Write code to watch for the user typing in the auto-complete inputs, get the suggestions, and prepare the results as a HTML string or array of elements. See ***Preparing Suggestions for Display*** below. (For example add "keyup" event listener on the text input, call an API with the text input value for suggestions, then prepare the HTML string or array of elements to be added to the datalist for display.)
