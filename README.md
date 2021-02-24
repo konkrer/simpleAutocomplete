@@ -135,5 +135,3 @@ This could be the preparation of an array of node elements and the display of th
 		
 		// Set the datalistElements property to display node elements.
 		autocomp0.datalistElements = array;
-
-___Note:___ The displayed suggestion text (e.g - "A") will be used to set the input element's value. The value property of the SimpleAutocomplete instance will be the value that was set on the `<option>` element (e.g. - "a").
